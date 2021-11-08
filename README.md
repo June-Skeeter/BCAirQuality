@@ -1,12 +1,9 @@
-This repository contains:
-1) A script that downloades and aggregates hourly air quality data from DataBC
-2) The aggregated monthly and yearly datasets for 2009-2019
-    - The columns denote the year or month
-    - Not all years/months are availiable at all stations.  It's up to you to decide how to handle missing data
-	- The montly time series data could be especially spacre so use with caution.
+This repository contains a script that downloads and aggregates hourly air quality data from DataBC.
+
+The dataset includes: "O3" and "PM25" which are both harmful pollutants.  Data are aggregated by month (Timeseries) over 2009-2020.  This could be at specific event/fire season.  Data are also aggregated by year (Yearly_Averages) which could be used for looking at trend. Not all years/months are available at all stations.  The script has included all stations that have >50% data coverage.  It's up to you to decide how to handle missing data beyond that.
+
+This repo also includes MonitoringStations.csv, a text file with the coordinates of each station.  The "EMS_ID" column is the index that matches the stations to the data.
 
 For metadata see: https://catalogue.data.gov.bc.ca/dataset/air-quality-monitoring-verified-hourly-data
-
-Note - Not all pollutants are avalable at all stations.  Some have better coverage (ex. PM2.5 vs H2S)
 
 
