@@ -17,18 +17,4 @@ For metadata see: https://catalogue.data.gov.bc.ca/dataset/air-quality-monitorin
 
 * Right click > "Save page as"
 
-
-<div style="overflow: hidden;
-  padding-top: 56.25%;
-  position: relative">
-  <iframe src="docs/content/Air_Quality_Download.mp4" title="Processes" scrolling="no" frameborder="0"
-    style="border: 0;
-   height: 100%;
-   left: 0;
-   position: absolute;
-   top: 0;
-   width: 100%;">
-   <p>Your browser does not support iframes.</p>
- </iframe>
-</div>
-<a href="docs/content/Air_Quality_Download.mp4" target="_blank">View in New Tab</a>
+<a href="docs/content/Air_Quality_Download.mp4" target="_blank">Click here for video instructions.</a>
